@@ -47,12 +47,15 @@ Download 90epoch_ckpt.zip from
 <details>
 <summary>Run model</summary>
 
-Step1. Run server.py in your Jetson board
+Step1. Set the path to the downloaded 90epoch_ckpt file in the server.py file
+
+
+Step2. Run server.py in your Jetson board
 ```shell
 python3 server.py
 ```
 
-Step2. Run client.py in your Host PC
+Step3. Run client.py in your Host PC
 ```shell
 python3 client.py
 ```
