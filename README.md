@@ -37,14 +37,14 @@ pip3 install -v -e .  # or  python3 setup.py develop
 <summary>Run model</summary>
 
 Step1. Run server.py in your Jetson board
-'''shell
+```shell
 python3 server.py
-'''
+```
 
 Step2. Run client.py in your Host PC
-'''shell
+```shell
 python3 client.py
-'''
+```
 
 </details>
 
