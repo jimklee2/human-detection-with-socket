@@ -37,7 +37,7 @@ pip3 install -v -e .  # or  python3 setup.py develop
 <details>
 <summary>Download ckpt file</summary>
 
-[YOLOX(Human-detection)](https://github.com/jimklee2/human-detection-with-socket/releases/download/modelckpt/90epoch_ckpt.zip)
+[YOLOX(Human-detection)](https://github.com/jimklee2/human-detection-with-socket/releases/download/modelckptrc0/90epoch_ckpt.zip)
 
 
 </details>
