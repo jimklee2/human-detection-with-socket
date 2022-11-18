@@ -17,6 +17,7 @@ This repo is an implementation of PyTorch version YOLOX, there is also a [MegEng
 | ------        |:---:  |  :---:       |:---:     |:---:  | :---: |
 |[YOLOX-Nano](./exps/default/yolox_nano.py) |416  |25.8  | 0.91 |1.08 | [github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.pth) |
 |[YOLOX-Tiny](./exps/default/yolox_tiny.py) |416  |32.8 | 5.06 |6.45 | [github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_tiny.pth) |
+|[YOLOX(Human-detection)](./exps/default/yolox_tiny.py) |416  |32.8 | 5.06 |6.45 | [github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_tiny.pth) |
 
 
 ## Start
@@ -32,6 +33,15 @@ pip3 install -v -e .  # or  python3 setup.py develop
 ```
 
 </details>
+
+<details>
+<summary>Download ckpt file</summary>
+
+[YOLOX(Human-detection)](https://github.com/jimklee2/human-detection-with-socket/releases/download/modelckpt/90epoch_ckpt.zip)
+
+
+</details>
+
 
 <details>
 <summary>Run model</summary>
