@@ -1,24 +1,3 @@
-<div align="center"><img src="assets/logo.png" width="350"></div>
-<img src="assets/demo.png" >
-
-## Introduction
-This repository is for human detection with socket programming using Jetson board(YOLOX!)
-
-
-This repo is an implementation of PyTorch version YOLOX, there is also a [MegEngine implementation](https://github.com/MegEngine/YOLOX).
-
-<img src="assets/git_fig.png" width="1000" >
-
-## Benchmark
-
-#### Light Models.
-
-|Model |size |mAP<sup>val<br>0.5:0.95 | Params<br>(M) |FLOPs<br>(G)| weights |
-| ------        |:---:  |  :---:       |:---:     |:---:  | :---: |
-|[YOLOX-Nano](./exps/default/yolox_nano.py) |416  |25.8  | 0.91 |1.08 | [github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.pth) |
-|[YOLOX-Tiny](./exps/default/yolox_tiny.py) |416  |32.8 | 5.06 |6.45 | [github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_tiny.pth) |
-
-
 
 ## Start
 
@@ -27,7 +6,7 @@ This repo is an implementation of PyTorch version YOLOX, there is also a [MegEng
 
 Step1. Install YOLOX from source.
 ```shell
-git clone git@github.com:Megvii-BaseDetection/YOLOX.git
+git clone https://github.com/jimklee2/human-detection-with-socket.git
 cd YOLOX
 pip3 install -v -e .  # or  python3 setup.py develop
 ```
@@ -62,4 +41,17 @@ python3 client.py
 
 </details>
 
+
+<details>
+<summary>Run model directly(without using Jetson)</summary>
+
+Step1. Set the path to the downloaded 90epoch_ckpt file in the server.py file
+
+
+Step2. Run direct_inference.py in PC
+```shell
+python3 direct_inference.py
+```
+
+</details>
 
